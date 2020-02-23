@@ -1,0 +1,24 @@
+@import 'variables.scss';
+
+.nav-style {
+  font-family: "Cormorant Garamond";
+}
+
+.dropdown-menu {
+  background-color: $dark;
+  border: 0.5px solid $white-50;
+  padding: 0.2rem;
+}
+
+.dropdown-item {
+  a {
+    color: goldenrod;
+  }
+  &:hover {
+    background-color: $white-50;
+  }
+}
+
+button.navbar-toggler:focus {
+  outline: 1px solid $white-50;
+}

@@ -1,0 +1,24 @@
+@import 'variables.scss';
+
+.bg-hero {
+  background-image: url("../img/event_purple_edited.jpg");
+}
+
+.hero-text-col {
+  margin-top: 10rem;
+  position: relative;
+  font-family: "Tangerine", cursive;
+  h1 {
+    color: whitesmoke;
+    font-size: 10rem;
+  }
+  h3 {
+    color: whitesmoke;
+    font-size: 4rem;
+  }
+  q {
+    color: whitesmoke;
+    padding-top: 8rem;
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Cormorant+Garamond|Raleway|Tangerine&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/395b7e0790.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/picker-light-pop.css" rel="stylesheet">
+    <script src="js/datepicker-pop.js"></script>
+    <script src="js/custom.js"></script>
+
+
+    <title>Nicole Plant Events - Enquire</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark nav-style bg-transparent fixed-top ">
+        <a class="navbar-brand nav-style" href="index.html">Nicole Plant Events</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Enquire <span class="sr-only">(current)</span> </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Events</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item text-white-50" href="maintenance.html">Private</a>
+                        <a class="dropdown-item text-white-50" href="maintenance.html">Corporate</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="main-container enquire container-fluid" id="home">
+
+        <header>
+            <!-- Hero -->
+            <div class="bg-para bg-hero">
+                <!-- row hero -->
+                <div class="row text-center py-sm-5">
+                    <div class="col-sm-12 hero-text-col mt-5">
+                        <h3 class="text">Enquire now for your next bespoke event</h3>
+                    </div>
+                    <!-- row hero end -->
+                </div>
+                <!-- container hero end -->
+            </div>
+        </header>
+
+
+        <div class="container main-form my-4">
+            <div class="row">
+
+                <div class="col-5 col-md-4 offset-md-2 offset-1 form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" name="firstName" id="firstName" aria-describedby="helpId"
+                        placeholder="First Name">
+                </div>
+                <div class="col-5 col-md-4 form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" name="lastName" id="lastName" aria-describedby="helpId"
+                        placeholder="Last Name">
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-5 col-md-4 offset-md-2 offset-1 form-group">
+                    <div class="form-group">
+                        <label for="eventType">Select Event Type</label>
+                        <select class="form-control" name="eventType" id="">
+                            <option>Private</option>
+                            <option>Corporate</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-5 col-md-4 form-group">
+                    <label for="guestNumber">Number of Guests</label>
+                    <input type="text" class="form-control" name="guestNumber" id="guestNumber"
+                        aria-describedby="helpId" placeholder="e.g. 60">
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-5 col-md-4 offset-md-2 offset-1 form-group">
+                    <label for="emailAddress">Email Address</label>
+                    <input type="text" class="form-control" name="emailAddress" id="emailAddress"
+                        aria-describedby="helpId" placeholder="Email Address">
+                </div>
+                <div class="col-5 col-md-4 form-group">
+                    <label for="contactNumber">Contact Number</label>
+                    <input type="text" class="form-control" name="contactNumber" id="contactNumber"
+                        aria-describedby="helpId" placeholder="e.g. 021 123 4567">
+                </div>
+
+                <div class="w-100"></div>
+
+                <!-- date picker -->
+                <div class="col-6 offset-3 text-center">
+                    <label for="datepicker">Choose your preferred event date</label>
+                </div>
+                <div class="col-4 offset-4">
+                    <input type="text" id="input-popup" class="form-control text-center" name="datepicker">
+
+                    <script>
+                        window.addEventListener("load", function () {
+                            // target input
+                            picker.attach("input-popup");
+                        });
+                    </script>
+                </div>
+
+                <!-- Button trigger modal -->
+                <div class="col-12 text-center mt-4">
+                    <button type="button" name="submitEnquiry" id="submitEnquiry" class="btn btn-submit"
+                        data-toggle="modal" data-target="#submitEnquiryModal" role="button">Submit Enquiry</button>
+
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="submitEnquiryModal" tabindex="-1" role="dialog"
+                    aria-labelledby="modelTitleId" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-white">Thank you for your enquiry</h5>
+                                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid text-white">
+                                    A member of our expert team will be in contact shortly as regards your enquiry.
+                                    <br>We appreciate your interest in arranging your next event with Nicole Plant
+                                    events.
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-submit btn-modal"
+                                    data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="page-footer pt-4 sticky-bottom pt-5">
+
+            <!-- footer links -->
+            <div class="container-fluid text-center text-md-left text-white-50">
+
+                <div class="row">
+                    <div class="col-md-3 mt-md-0 mt-3 mr-4">
+                        <h5 class="text-uppercase">Office</h5>
+                        <address>
+                            Nicole Plant Events,
+                            Suite 3, Level 28,
+                            Coldero Towers,
+                            135 Grand Marine Parade,
+                            Wellington,
+                            New Zealand,
+                            6011
+                        </address>
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <!-- links 1st -->
+                        <h5 class="text-uppercase">Services</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="maintenance.html">Private Events</a>
+                            </li>
+                            <li>
+                                <a href="maintenance.html">Corporate Functions</a>
+                            </li>
+                            <li>
+                                <a href="#what-we-do">What We Do</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-4 mb-md-0 mb-3">
+                        <!-- links 2nd -->
+                        <h5 class="text-uppercase">Info</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="enquire.html">Enquire</a>
+                            </li>
+                            <li>
+                                <a href="maintenance.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Who We Are</a>
+                            </li>
+                            <li>
+                                <a href="#!">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer links end -->
+
+            <!-- copyright -->
+            <div class="footer-copyright text-center py-3">
+                © 2020 Copyright: Marcus Powdrell Campbell
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+</body>
+
+
+<!-- Optional JavaScript -->
+<script src="js/app.js"></script>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.slim.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>

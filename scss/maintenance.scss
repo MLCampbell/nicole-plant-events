@@ -1,0 +1,12 @@
+@import 'variables.scss';
+
+.bg-maintenance {
+    background-image: url("../img/maintenance_edited.jpg");
+    .bg-trans-dark {
+        background-color: rgba(97, 97, 97, 0.554);
+    }
+}
+
+.bg-nav {
+    background-color: $dark;
+}

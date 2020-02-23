@@ -1,0 +1,19 @@
+{
+  "name": "firstProperDev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-scss": "^4.4.1",
+    "jquery": "^3.4.1",
+    "mdbreact": "^4.25.2",
+    "node-sass": "^4.13.1"
+  }
+}

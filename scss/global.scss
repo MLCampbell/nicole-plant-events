@@ -1,0 +1,21 @@
+@import 'variables.scss';
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: $dark;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.main-container{
+  background-color: $dark;
+}
