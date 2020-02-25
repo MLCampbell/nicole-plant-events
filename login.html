@@ -224,7 +224,8 @@
             <br />
             <input type="password" data-test="password" value={this.state.password} onChange={this.handlePassChange} />
             <br />
-            <input className="loginButton" type="submit" value="Log In" data-test="submit" onClick={event => window.location.href = './maintenance.html'} />
+            <input className="loginButton" type="submit" value="Log In" data-test="submit"/>
+            
           </form>
         </div>
 
@@ -235,5 +236,7 @@
   ReactDOM.render(<App />, loginContainer);
 </script>
 <!-- React login app script end -->
+
+<!-- onClick={event => window.location.href = './my-account.html'} -->
 
 </html>

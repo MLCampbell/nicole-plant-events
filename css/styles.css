@@ -7361,3 +7361,20 @@ button.navbar-toggler:focus {
     .login-form .loginButton:hover {
       background-color: #1d1d1d;
       color: goldenrod; }
+
+@media only screen and (max-width: 768px) {
+  .hero-text-col {
+    margin-top: 6rem; }
+    .hero-text-col .hero-heading {
+      font-size: 6rem; }
+    .hero-text-col .hero-sub-heading {
+      font-size: 2.5rem; }
+    .hero-text-col .hero-quote {
+      font-size: 2.5rem;
+      padding: 4rem; }
+  .maintenance-heading {
+    font-size: 4rem; }
+  .maintenance-sub-heading {
+    font-size: 1.5rem; }
+  .page-footer {
+    font-size: 0.7rem; } }
