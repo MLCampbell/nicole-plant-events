@@ -7142,7 +7142,6 @@ html {
   font-family: "Raleway", sans-serif; }
 
 body {
-  min-height: 100vh;
   background-color: #1d1d1d; }
 
 .row {
@@ -7151,7 +7150,7 @@ body {
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   padding: 0px; }
 
-.main-container {
+.main-container, footer {
   background-color: #1d1d1d; }
 
 .nav-style {
@@ -7211,26 +7210,24 @@ button.navbar-toggler:focus {
 .hero-text-col {
   margin-top: 10rem;
   position: relative;
-  font-family: "Tangerine", cursive; }
-  .hero-text-col h1 {
-    color: whitesmoke;
+  font-family: "Tangerine", cursive;
+  color: whitesmoke; }
+  .hero-text-col .hero-heading {
     font-size: 10rem; }
-  .hero-text-col h3 {
-    color: whitesmoke;
+  .hero-text-col .hero-sub-heading {
     font-size: 4rem; }
-  .hero-text-col q {
-    color: whitesmoke;
+  .hero-text-col .hero-quote {
     padding-top: 8rem;
     font-size: 3rem; }
 
 .bg-what-we-do {
-  background-image: url("../img/champagne_canapes_edited.jpg"); }
+  background-image: url("../img/outdoor_white_edited.jpg"); }
 
 .bg-who-we-are {
   background-image: url("../img/wedding_aisle.jpg"); }
 
 .bg-what-people-say {
-  background-image: url("../img/champagne_canapes.jpg"); }
+  background-image: url("../img/champagne_canapes_edited.jpg"); }
 
 .citation {
   color: whitesmoke;
@@ -7244,6 +7241,9 @@ button.navbar-toggler:focus {
 
 .enquire {
   color: whitesmoke; }
+
+.enquire-text {
+  font-size: 5rem; }
 
 .btn-submit {
   background-color: rgba(255, 255, 255, 0.5);
@@ -7291,3 +7291,73 @@ button.navbar-toggler:focus {
 
 .bg-nav {
   background-color: #1d1d1d; }
+
+.maintenance-heading {
+  font-size: 7rem; }
+
+.maintenance-sub-heading {
+  font-size: 5rem; }
+
+.bg-login {
+  background-image: url("../img/guest_open_door_edited.jpg"); }
+  .bg-login .bg-trans-dark {
+    background-color: rgba(97, 97, 97, 0.554); }
+
+.login-heading {
+  font-size: 6rem; }
+
+.login-sub-heading {
+  font-family: "Cormorant Garamond"; }
+
+#loginButton {
+  background-color: whitesmoke;
+  color: black;
+  border: 0.5px solid #575757;
+  font-weight: bold;
+  letter-spacing: 0.07rem; }
+  #loginButton:hover {
+    background-color: #1d1d1d;
+    color: goldenrod; }
+  #loginButton.active {
+    background-color: #1d1d1d;
+    color: goldenrod; }
+  #loginButton:hover {
+    background-color: #1d1d1d;
+    color: goldenrod; }
+  #loginButton:focus {
+    box-shadow: 0.5px 0.5px 2px goldenrod, -0.5px -0.5px 2px goldenrod; }
+
+.login-form {
+  width: fit-content; }
+  .login-form label {
+    color: #1d1d1d;
+    font-family: "Cormorant Garamond";
+    font-size: 1.6rem;
+    font-weight: bold; }
+  .login-form input {
+    margin: 0.2rem 0 1rem 0;
+    background-color: rgba(97, 97, 97, 0.554);
+    color: #1d1d1d;
+    padding: 0.4rem;
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    font-size: 1.6rem; }
+  .login-form .loginButton {
+    padding: 0.2rem 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.07rem;
+    padding: 1rem 2rem; }
+    .login-form .loginButton:focus {
+      background-color: #1d1d1d;
+      color: goldenrod;
+      box-shadow: none; }
+    .login-form .loginButton.active {
+      background-color: #1d1d1d;
+      color: goldenrod;
+      box-shadow: none; }
+    .login-form .loginButton:hover {
+      background-color: #1d1d1d;
+      color: goldenrod; }

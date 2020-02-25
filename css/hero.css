@@ -1,0 +1,15 @@
+.bg-hero {
+  background-image: url("../img/event_purple_edited.jpg"); }
+
+.hero-text-col {
+  margin-top: 10rem;
+  position: relative;
+  font-family: "Tangerine", cursive;
+  color: whitesmoke; }
+  .hero-text-col .hero-heading {
+    font-size: 10rem; }
+  .hero-text-col .hero-sub-heading {
+    font-size: 4rem; }
+  .hero-text-col .hero-quote {
+    padding-top: 8rem;
+    font-size: 3rem; }

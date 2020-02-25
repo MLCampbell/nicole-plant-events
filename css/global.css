@@ -1,0 +1,14 @@
+html {
+  font-family: "Raleway", sans-serif; }
+
+body {
+  background-color: #1d1d1d; }
+
+.row {
+  margin: 0; }
+
+.container-fluid {
+  padding: 0px; }
+
+.main-container, footer {
+  background-color: #1d1d1d; }

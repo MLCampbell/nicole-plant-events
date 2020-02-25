@@ -1,0 +1,28 @@
+.bg-login {
+  background-image: url("../img/guest_open_door_edited.jpg"); }
+  .bg-login .bg-trans-dark {
+    background-color: rgba(97, 97, 97, 0.554); }
+
+.login-heading {
+  font-size: 6rem; }
+
+.login-sub-heading {
+  font-family: "Cormorant Garamond"; }
+
+#loginButton {
+  background-color: whitesmoke;
+  color: black;
+  border: 0.5px solid #575757;
+  font-weight: bold;
+  letter-spacing: 0.07rem; }
+  #loginButton:hover {
+    background-color: #1d1d1d;
+    color: goldenrod; }
+  #loginButton.active {
+    background-color: #1d1d1d;
+    color: goldenrod; }
+  #loginButton:hover {
+    background-color: #1d1d1d;
+    color: goldenrod; }
+  #loginButton:focus {
+    box-shadow: 0.5px 0.5px 2px goldenrod, -0.5px -0.5px 2px goldenrod; }
